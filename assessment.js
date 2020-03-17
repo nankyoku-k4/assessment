@@ -117,6 +117,6 @@ result = result.replace(/\{userName\}/g, userName);
 console.assert(
     assessment('太郎') === '太郎のいいところは決断力です。太郎がする決断にいつも助けられる人がいます。',
     '診断結果の文言の特定の部分を名前に置き換える処理が正しくありません。',
-    assessment('太郎') === assessment('次郎'),
+    assessment('太郎') === assessment('太郎'),
     '同じ名前に同じ診断結果が表示されていません'
   );
